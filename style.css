@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background: url("images/basketball.jpg") no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    height: 320px;
+    width: 600px;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: 5px solid #FFFFFF;
+
+}
+.btn {
+    margin-top: -30px;
+    padding: 9px 10px 9px 10px;
+    margin-left: 6px;
+    background:#1B244A;
+    color:#9AABD8;
+    font-size: 18px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+}
+
+
+.title-board {
+    background: #080001;
+    height: 120px;
+    width: 155px;
+    color: #F94F6D;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top: -20px;
+    
+}
+.names {
+    font-size: 40px;
+    font-style: bold;
+    color: #EEEEEE;
+    font-family: 'Verdana';
+    line-height: 36px;
+    text-align: center;
+}
