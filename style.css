@@ -4,13 +4,13 @@ body {
 }
 
 .container {
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-item: center;
     background: #1B244A;
     height: 320px;
     width: 600px;
-    margin-left: 500px;
-    margin-top: 50px;
     border-radius: 15px;
     border: 5px solid #FFFFFF;
 
@@ -47,4 +47,7 @@ body {
     font-family: 'Verdana';
     line-height: 36px;
     text-align: center;
+}
+.new {
+    margin-top: -250px;
 }
